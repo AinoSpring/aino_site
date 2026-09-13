@@ -1,6 +1,7 @@
 services:
   aino_site:
     build: .
+    container_name: aino_site
     restart: always
     environment:
       SERVER_ADDR: "0.0.0.0:8080"
